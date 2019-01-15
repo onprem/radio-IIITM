@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './contact.css'
+import './gallery.css'
 import radio from '../../assets/radio.jpg';
 
-class Contact extends Component {
+class Gallery extends Component {
 
   componentWillMount(){
   }
@@ -71,4 +71,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default Gallery;
