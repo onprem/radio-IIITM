@@ -1,5 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+body {
+	overflow-x: hidden;
+}
 .App {
   text-align: center;
+}
+
+.container {
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	text-decoration: none;
+	/*color: black;*/
+}
+.navbar {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 1.55em;
+	/*color: white;*/
+	margin: 0;
+/*	height: 80px;*/
+}
+
+.linkdiv {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background: #262222;
+	height: 60px;
+	padding-left: 150px;
+}
+
+.logodiv {
+	display: flex;
+	align-items: center;
+	height: 100px;
+	padding-left: 150px;
+}
+
+.clgName {
+	font-size: 1.55em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+}
+
+.navi {
+	margin: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: white;
+}
+
+.clogo {
+	height: 60px;
+	justify-self: flex-start;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	margin-left: 10%;
+}
+.about {
+	text-align: justify;
+	width: 80%;
+	font-size: 1.4em;
+}
+
+.contact {
+	width: 80%;
+	font-size: 1.2em;
+}
+
+.about h2 {
+	text-align: center;
+	font-size: 1.75em;
+}
+
+.contact h2 {
+	text-align: center;
+	font-size: 1.75em;
+}
+
+.social {
+	background: #262222;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 50px;
+	margin-top: 80px;
+	height: 90px;
+	font-size: 2.4em;
+}
+.soico {
+	padding-right: 30px;
+}
+
+.radiodiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.radiologo {
+	width: 20%;
+}
+.radiologo img {
+	width: 200px;
+}
+.radiotext {
+	width: 80%;
+	height: 100%;
+	font-size: 1.5em;
+}
+.radiotext p {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.contact-card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.contact-card h4 {
+	margin: 0;
+	font-size: 1.4em;
+}
+
+.videos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.clgimg {
+	align-items: center;
+	align-self: center;
+	width: 80%;
+	margin-left: 10%;
+}
+
+@media only screen and (max-width: 800px) {
+	.navbar {
+		font-size: 1em;
+	}
+	.linkdiv {
+		padding-left: 0px;
+	}
+	.logodiv {
+		padding-left: 0px;
+	}
+	.radiologo img {
+		width: 120px;
+	}
+	.navi {
+		padding-right: 8px;
+		padding-left: 8px;
+	}
+	.about, .contact {
+		width: 100%;
+	}
 }
 
 @keyframes App-logo-spin {
